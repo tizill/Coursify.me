@@ -1,8 +1,6 @@
 import React from 'react';
 import { Text, View, Image, StyleSheet, Button, TouchableHighlight, Linking, TouchableOpacity  } from 'react-native';
 import logo from "../../assets/logoFooter.png";
-import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 const Footer = () => {
     return (

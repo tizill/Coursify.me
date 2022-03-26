@@ -1,13 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import {Image, StyleSheet, ScrollView, Text, View, ActivityIndicator } from 'react-native';
-import { shadowOffset } from 'react-native/Libraries/Components/View/ReactNativeStyleAttributes';
-import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { Head } from '../Head';
 import { Footer } from '../Footer';
 import axios from "axios"
 
- //
+
 
 
 const apiMedia = axios.create({baseURL: "https://blog.coursify.me/wp-json/wp/v2/media/"});
@@ -107,14 +104,6 @@ const styles = StyleSheet.create({
         color: "#868686",
         textAlign: "left",
         marginTop: 16
-    },
-    postMore:{
-        letterSpacing: 0,
-        fontSize: 16,
-        color: "#FDA506",
-        paddingLeft: 9,
-        paddingRight: 9,
-        marginTop: 15
     },
     Texto:{
         marginBottom: 10,

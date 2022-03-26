@@ -1,12 +1,9 @@
 import React from 'react';
-import {Image, StyleSheet, Text, View, ScrollView, FlatList, SafeAreaView  } from 'react-native';
-import { shadowOffset } from 'react-native/Libraries/Components/View/ReactNativeStyleAttributes';
-import { NavigationContainer,  useNavigationContainerRef } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { StyleSheet, ScrollView } from 'react-native';
 import { Head } from '../Head';
 import { Footer } from '../Footer';
 import { Post } from '../Post';
-import { ContentPage } from './Content';
+
 
 const HomeScreen = ({ navigation }) => {
     return (
@@ -25,10 +22,8 @@ const HomeScreen = ({ navigation }) => {
 const styles = StyleSheet.create({
     container: {
       flex: 1,
-     // backgroundColor: '#fff',
-     // alignItems: 'center',
-  //justifyContent: 'center',
     },
+
     header: {
       backgroundColor: '#FAFAFA',
       position: 'relative',

@@ -1,13 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { Text, View, Image, StyleSheet, FlatList, SafeAreaView, StatusBar, ActivityIndicator, TouchableHighlight, TouchableOpacity } from 'react-native'
 import axios from "axios"
-//id Cursos Online = 82
-//id Markenting Digital = 234 
-//id Tutorial = 1288
-//Id corporate-training =732
-//Id Educação Online = 1171
+
+
 const apiMedia = axios.create({baseURL: "https://blog.coursify.me/wp-json/wp/v2/media/"})
 const categoriList = {
     82: "Cursos Online",
