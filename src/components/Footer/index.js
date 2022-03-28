@@ -1,6 +1,6 @@
 import React from 'react';
 import { Text, View, Image, StyleSheet, Button, TouchableHighlight, Linking, TouchableOpacity  } from 'react-native';
-import logo from "../../assets/logoFooter.png";
+import logo from "../../../assets/logoFooter.png";
 
 const Footer = () => {
     return (

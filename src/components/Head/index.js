@@ -1,6 +1,6 @@
 import React from 'react';
 import { Text, View, Image, StyleSheet  } from 'react-native'
-import logo from "../../assets/logo.png"
+import logo from "../../../assets/logo.png"
 
 const Head = () => {
     return (
