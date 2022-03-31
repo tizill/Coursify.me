@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import {Image, StyleSheet, ScrollView, Text, View, ActivityIndicator } from 'react-native';
-import { Head } from '../Head';
-import { Footer } from '../Footer';
+import { Head } from '../components/Head';
+import { Footer } from '../components/Footer';
 import axios from "axios"
 
 

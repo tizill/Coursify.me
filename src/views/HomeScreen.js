@@ -1,8 +1,8 @@
 import React from 'react';
 import { StyleSheet, ScrollView } from 'react-native';
-import { Head } from '../Head';
-import { Footer } from '../Footer';
-import { Post } from '../Post';
+import { Head } from '../components/Head';
+import { Footer } from '../components/Footer';
+import { Post } from '../components/Post';
 
 
 const HomeScreen = ({ navigation }) => {
